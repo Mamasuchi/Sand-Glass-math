@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int i=0;
+
+    while(i<4){
+    	i++;
+    int a=0;
+    while(a<i){
+    	cout << " ";
+    	a++;}
+    int b=0;
+    while(b<8-i){
+    	cout << "*";
+    	b++;}
+    int c=0;
+    while(c<7-i){
+    	cout << "*";
+    	c++;
+    }
+    cout << endl;
+    }
+
+
+    int d=0;
+    while(d<4){
+    	d++;
+    int a=5;
+    while(a>d){
+    	cout << " ";
+    	a--;}
+    int b=0;
+    while(b<d){
+    	cout << "*";
+    	b++;}
+    int c=0;
+    while(c<5+d){
+    	cout << "*";
+    	c++;}
+    cout << endl;
+    }
+
+    return 0;}
